@@ -1,0 +1,35 @@
+.jumbotron .Attractions-Reading h2{
+   margin-top:35px;
+    color:#FFFFFF;
+   margin-left:2.5%;
+}
+
+
+.jumbotron .col-md-2 {
+
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.jumbotron .col-md-2 .container{
+  width: 190px;
+  height:190px;
+}
+
+.jumbotron .col-md-2 .container img{
+    /*position: absolute;*/
+    width: 190px;
+    height:190px;
+
+}
+
+.jumbotron .col-md-2 .container h2{
+    /*position: absolute;*/
+    /*position: absolute;*/
+    /*z-index: 100;*/
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    /*left: 150px;*/
+    /*top: 350px;*/
+}
