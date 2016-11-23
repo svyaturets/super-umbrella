@@ -1,34 +1,97 @@
+
+
+.jumbotron .Attractions-Reading {
+   margin-top:15px;
+    color:#262626;
+    /*margin-left:2.6%;*/
+
+   font-family: Arial;
+    /*border: 2px solid orange;*/
+}
+
+
 .jumbotron .Attractions-Reading h2{
-   margin-top:35px;
-    color:#FFFFFF;
-   margin-left:2.5%;
+
+    /*border: 1px solid burlywood;*/
+
+}
+
+.jumbotron .Attractions-Reading h2 span{
+    /*background-color: #333;*/
+    /*content: "";*/
+    display: inline-block;
+    /*height: 2px;*/
+    border-top : 3.5px solid #d9d9d9;
+    border-bottom: 3.5px solid #d9d9d9;
+
+    position: relative;
+    vertical-align: inherit;
+    /*box-sizing: content-box;*/
+    padding-bottom:1px;
+    /*width:82.5%;*/
+     margin-left: 5px;
+    /*border: 2px solid deeppink;*/
+}
+
+.upper-row{
+
+    /*border: 2px solid yellow;*/
+    /*width:inherit;*/
+    height: 205px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.lower-row{
+
+    /*border: 2px solid purple;*/
+    /*width: inherit;*/
+    height: 205px;
+    margin-top: 15px;
 }
 
 
 .jumbotron .col-md-2 {
 
-  margin-left:20px;
-  margin-right:20px;
+  /*margin-left: 2.6%;/*30px;*/
+  border: 1px solid red;
+    margin-right:3.3%;
 }
 
-.jumbotron .col-md-2 .container{
-  width: 190px;
-  height:190px;
+
+.tile {
+
+    height: 200px;
+    width:200px;
+    /*margin-top:15px;*/
+    /*border: 1px solid #31b0d5;*/
 }
 
-.jumbotron .col-md-2 .container img{
-    /*position: absolute;*/
-    width: 190px;
-    height:190px;
+
+.tile .image{
+    position: absolute;
+    height:200px;
+    width:inherit;
+    /*z-index: -1;*/
 
 }
 
-.jumbotron .col-md-2 .container h2{
-    /*position: absolute;*/
-    /*z-index: 100;*/
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    /*left: 150px;*/
-    /*top: 350px;*/
+.tile .text{
+    /*position:static;*/
+    /*border: 1px solid green;*/
+    width:inherit;
+    height:10%;
+    /*background-color:transparent;*/
+    /*border:2px solid blue;*/
+
+}
+
+.tile .text p{
+    border: 3px solid transparent;
+    width:inherit;
+    background-color:darkgray;
+    position:relative;
+    top:830%;
+    text-align:left;
+    opacity: 0.5;
 }
